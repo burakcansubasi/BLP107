@@ -1,0 +1,63 @@
+9. hafta konuşulan konular ve önemli yerler.
+
+- Form nedir? Ne işe yarar. Özellikleri nelerdir. (method, name, target, action)
+
+- <label> ve for attribute ->
+
+	<label for="html">HTML</label>
+	<input type="radio" id="html" name="fav_language" value="HTML">
+
+- Radio button seçim grubunda bir kere seçilir, bu nedenle name alanı aynı olmalıdır. Checkbox'lar çoklu seçimdir. Name alanları farklı tanımlanır.
+
+- Submit buton, formu action'da belirtilen route göndermemize yarar.
+
+- Reset buton formun içeriğini sıfırlar.
+
+- Form elemenlerine baktık, tekrar edelim.
+
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<option>
+
+- Inputların kullanım alanına göre farklı kullanım tipleri var. Hepsini ele aldık. Tekrar edelim.
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+Diğer notlar:
+- required alan nedir ? Nasıl kullanılır uygulayınız.
+- readonly ve disabled farkı nedir?
+- form elementlerine neden id uygulanır ?
+- form içerisinde bir elemente id ile veya formelemen[attribute] selector ile erişip css denemesi yapalım.
+- number elementinde min, max ve step attribute denemelerini tamamlayınız.
+- detaylı bir şekilde ele aldığımız hidden elementi neden kullanılır. Bir örnek ile açıklayınız. Kullanırken nelere dikkat edilmeli. Kullanıcılar tarafından gözükmiyorsa neden kullanılıyoruz ?
+- pattern özelliğini deneyelim. (533)-111-22-22 örneği için uygulayınız.
+- placeholder, autofocus, selected, checked, maxlength özelliklerini araştırınız ve uygulayınız.
+
+----- *
+Get ve Post method nedir, farkları nelerdir?
