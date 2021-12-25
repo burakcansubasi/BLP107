@@ -1,0 +1,87 @@
+HTML'de JavaScript kodu, <script> ve </script> etiketleri arasına eklenir.
+---
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+---
+Bir HTML belgesine istediğiniz sayıda komut dosyası yerleştirebilirsiniz.
+Komut dosyaları, bir HTML sayfasının <body> veya <head> bölümüne veya her ikisine de yerleştirilebilir.
+---
+JavaScript, verileri farklı şekillerde "gösterebilir":
+innerHTML kullanarak bir HTML öğesine yazma.
+Document.write() kullanarak HTML çıktısına yazma.
+window.alert() kullanarak bir uyarı kutusuna yazma.
+Console.log() kullanarak tarayıcı konsoluna yazma.
+---
+Çok satırlı yorumlar /* ile başlar ve */ ile biter.
+/* ve */ arasındaki herhangi bir metin JavaScript tarafından yok sayılır.
+
+Tek satırlık yorumlar // ile başlar.
+// ile satırın sonu arasındaki herhangi bir metin JavaScript tarafından yok sayılır (yürütülmez).
+---
+JavaScript Değişkeni Bildirmenin 4 Yolu:
+var kullanarak
+let kullanma
+const kullanma
+hiçbir şey kullanmamak
+---
+JavaScript Tanımlayıcıları
+Tüm JavaScript değişkenleri benzersiz adlarla tanımlanmalıdır.
+
+Bu benzersiz adlara tanımlayıcılar denir.
+
+Tanımlayıcılar kısa adlar (x ve y gibi) veya daha açıklayıcı adlar (yaş, toplam, toplam Hacim) olabilir.
+
+Değişkenler (benzersiz tanımlayıcılar) için ad oluşturmaya ilişkin genel kurallar şunlardır:
+
+Adlar harfler, rakamlar, alt çizgiler ve dolar işaretleri içerebilir.
+İsimler bir harfle başlamalıdır
+İsimler $ ve _ ile de başlayabilir (ancak bu eğitimde kullanmayacağız)
+Adlar büyük/küçük harfe duyarlıdır (y ve Y farklı değişkenlerdir)
+Ayrılmış kelimeler (JavaScript anahtar kelimeleri gibi) ad olarak kullanılamaz
+---
+let anahtar sözcüğü ES6'da (2015) tanıtıldı.
+let ile tanımlanan değişkenler Yeniden Bildirilemez.
+let ile tanımlanan değişkenler kullanılmadan önce Bildirilmelidir.
+Let have Block Scope ile tanımlanan değişkenler
+---
+const anahtar sözcüğü ES6'da (2015) tanıtıldı.
+const ile tanımlanan değişkenler Yeniden Bildirilemez.
+const ile tanımlanan değişkenler yeniden atanamaz.
+const ile tanımlanan değişkenlerin Blok Kapsamı vardır.
+---
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+--
+
+let length = 16;                               // Number
+let lastName = "Johnson";                      // String
+let x = {firstName:"John", lastName:"Doe"};    // Object
+
+---
+
+
+

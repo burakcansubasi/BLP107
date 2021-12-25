@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Hafta 11</title>
+    <style>
+        label{
+            font-weight: bold;
+            font-size: 18px;  
+        }
+        div{
+            margin-top: 5px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+<label>Öğrenci Adı</label>
+<div id="fname"></div>
+
+<label>Öğrenci Soyadı</label>
+<div id="lname"></div>
+
+<label>Öğrenci Bölümü</label>
+<div id="dept"></div>
+
+<label>Başarı Durumu</label>
+<div id="result"></div>
+
+<hr>
+
+<script>
+    const ogrenciBilgileri = [
+            {
+                isim: "Ahmet",
+                soyisim: "Veli",
+                bolum: "Bilgisayar Programcılığı İÖ",
+                erkekMi: true,
+                notDurum: {
+                    vize: 50,
+                    final: 60
+                }
+            },
+            {
+                isim: "Ezgi",
+                soyisim: "Güllüoğlu",
+                bolum: "Bilgisayar Programcılığı İÖ",
+                erkekMi: false,
+                notDurum: {
+                    vize: 45,
+                    final: 80
+                }
+            }
+        ];
+
+    document.getElementById('fname').innerText = ogrenciBilgileri[0].isim;
+    document.getElementById('lname').innerText = ogrenciBilgileri[0].soyisim;
+    document.getElementById('dept').innerText = ogrenciBilgileri[0].bolum;
+
+    document.getElementById('result').innerText = ( (ogrenciBilgileri[0].notDurum.vize*0.4)
+    +(ogrenciBilgileri[0].notDurum.final*0.6)) > 70 ? 'Başarılı':'Sınıfta Kaldı!';
+
+    if(ogrenciBilgileri[0].erkekMi){
+        document.body.style.backgroundColor="lightblue";
+    }else{
+        document.body.style.backgroundColor="pink";
+    }
+
+</script>
+
+    <script>/*
+    var x = 5;
+ 
+    //var x = "5";
+
+    //console.log("5+5 ="+(5+5));
+    document.write(x+5);
+    //window.alert("Bu bir pencere uyarısıdır!");
+    //document.getElementById('dinamikVeri').innerText = "<h1>Deneme</h1>";
+    document.getElementById('dinamikVeri').innerHTML = "<h1>Deneme</h1>";
+*/
+    </script>
+</body>
+
+</html>
